@@ -10,3 +10,8 @@ npm install --save-dev jest supertest
   "test": "jest"
 }
 ```
+
+### Git issue
+```bash
+git config --global http.postBuffer 524288000 #500MB
+```

@@ -4,6 +4,7 @@
   "description": "Learn CI/CD pipeline with Node App",
   "main": "app.js",
   "scripts": {
+    "build": "echo 'BUILD_EXPRESS_API'",
     "test": "jest"
   },
   "repository": {
