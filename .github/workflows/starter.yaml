@@ -1,0 +1,26 @@
+name: 'Hello CI/CD - Github Actions'
+
+on:
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+  #   branches:
+  #     - main
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: 'hello-CI/CD'
+        run: echo "Hello CI/CD with Github Actions dev."
+        shell: bash
+  goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'goodbye CI'
+        run: echo 'Goodbye Developer!'
+        shell: bash
+

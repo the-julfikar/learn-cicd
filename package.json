@@ -1,0 +1,29 @@
+{
+  "name": "learn-cicd-with-node",
+  "version": "1.0.0",
+  "description": "Learn CI/CD pipeline with Node App",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-julfikar/learn-cicd.git"
+  },
+  "keywords": [
+    "CI/CD"
+  ],
+  "author": "Engr. Julfikar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-julfikar/learn-cicd/issues"
+  },
+  "homepage": "https://github.com/the-julfikar/learn-cicd#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.4"
+  }
+}
